@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> _head }}
+<body>
+    {{> _navbar }}
+
+    <div class="d-flex justify-content-center mt-md-3 mt-5 align-items-center contact-container">
+
+        <div class="col-md-6 d-flex justify-content-center">
+
+            <form class="w-75 text-4" action="/Home.html">
+                <div class="row">
+                    <div class=" col-md-6 mb-3">
+                        <label for="Firstname" class="form-label">Firstname</label>
+                        <input type="text" class="form-control" id="Firstname" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label for="Lastname" class="form-label">Lastname</label>
+                        <input type="text" class="form-control" id="Lastname">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="eLastname" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="eLastname" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="Password" class="form-label">Password</label>
+                    <input type="password" class="form-control focus-ring-info " id="Password">
+                </div>
+                <div class="mb-3 ">
+                    <label class="form-label" for="exampleCheck1">Enter you Message</label>
+                    <textarea cols="2" rows="5" class="form-control focus-ring-info " id="exampleCheck1"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                </div>
+                
+                <button type="submit" class="btn bg-custom-teal text-white w-100">Submit</button>
+            </form>
+
+        </div>
+
+        <div class="col-6 p-lg-5 d-none d-md-flex align-items-center justify-content-center">
+            <img src="/public/image/Contact-banner.png" alt="Banner" class="img-fluid rounded-2">
+        </div>
+    </div>
+
+    {{> _footer }}
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVfkk8A40U2q49vJb0D0jL0rB3c8G18g6M22Xm4zQ6f0W" 
+            crossorigin="anonymous">
+    </script>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>

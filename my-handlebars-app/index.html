@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+{{> _head }}
+<body>
+    {{> _navbar }}
+
+    <div class="mt-5 d-flex justify-content-center align-content-center flex-column container">
+        
+        <div class="text-center content-div">
+            <p class="text-black fs-1 fw-bold">
+                Let us solve your critical website development challenges
+            </p>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque
+                    totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus</p>
+            </div>
+            <a href="/contact.html" class="bg-custom-teal button-style text-white fw-medium ">Contact Us</a>
+            <div class="h-25 mt-4 p-5">
+                <img src="https://tf-bigspring-light-astro.vercel.app/images/banner-art.png" class="img-fluid" alt="banner-art">
+            </div>
+        </div>
+        
+        <div class="rounded-2 py-2">
+            <div class="container text-center">
+
+                <h2 class="fw-bold mb-5">Something You Need To Know</h2>
+
+                <div class="row g-4">
+                    {{#each cards}}
+                    <div class="col-md-4">
+                        <div class="card shadow-sm h-100 border-0">
+                            <div class="card-body">
+                                <div class="mb-3 fs-2 text-primary">
+                                    <img src="https://tf-bigspring-light-astro.vercel.app/images/{{this.icon}}" height="40px" width="40px" alt="{{this.title}} icon">
+                                </div>
+                                <h5 class="fw-semibold">{{this.title}}</h5>
+                                <p class="text-muted">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {{/each}}
+                    </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row align-items-center flex-md-row">
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h1 class="fw-semibold">It is the most advanced digital marketing and it company.</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.</p>
+                    <a class="fw-semibold" style="color: #63E6BE;" href="/contact.html">
+                        Check it out 
+                        <i class="fa-solid fa-arrow-right" style="color: #63E6BE;"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img src="https://tf-bigspring-light-astro.vercel.app/images/service-slide-1.png" alt="Service Slide" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h1 class="fw-bold">It is a privately owned Information and cyber security company</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.</p>
+                    <a class="fw-semibold" style="color: #63E6BE;" href="/contact.html">
+                        Check it out 
+                        <i class="fa-solid fa-arrow-right" style="color: #63E6BE;"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img src="https://tf-bigspring-light-astro.vercel.app/images/service-slide-1.png" alt="Service Slide" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mt-4">
+            <div class="row align-items-center flex-md-row">
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h1 class="fw-bold">It’s a team of experienced and skilled people with distributions</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.</p>
+                    <a class="fw-semibold" style="color: #63E6BE;" href="/contact.html">
+                        Check it out 
+                        <i class="fa-solid fa-arrow-right" style="color: #63E6BE;"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img src="https://tf-bigspring-light-astro.vercel.app/images/service-slide-1.png" alt="Service Slide" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <div class="row align-items-center flex-md-row-reverse">
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <h1 class="fw-bold">A company standing different from others</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.</p>
+                    <a class="fw-semibold" style="color: #63E6BE;" href="/contact.html">
+                        Check it out 
+                        <i class="fa-solid fa-arrow-right" style="color: #63E6BE;"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img src="https://tf-bigspring-light-astro.vercel.app/images/service-slide-1.png" alt="Service Slide" class="img-fluid">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="d-flex justify-content-center align-content-center container mt-4">
+            <div class="m-auto">
+                <h1 class="fw-bold text-center">Experience the best workflow with us</h1>
+                <img src="https://tf-bigspring-light-astro.vercel.app/images/banner.png" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="container d-flex flex-lg-row rounded-3 bg-light w-auto gap-5 gap-lg-2 mt-5 p-5 flex-column flex-md-row">
+            <img src="https://tf-bigspring-light-astro.vercel.app/images/cta.png" class="img-fluid" alt="last-banner">
+            <div>
+                <h1>Ready to get started?</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="/contact.html" class="bg-custom-teal button-style text-white fw-medium ">Contact Us</a>
+            </div>
+        </div>
+
+    </div>{{> _footer }}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVfkk8A40U2q49vJb0D0jL0rB3c8G18g6M22Xm4zQ6f0W" 
+            crossorigin="anonymous">
+    </script>
+    
+    <script type="module" src="/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+.content-div {
+  padding:  120px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* For tablets (≤ 992px) */
+@media (max-width: 992px) {
+  .content-div {
+    padding: 60px 40px;
+  }
+}
+
+/* For mobile (≤ 768px) */
+@media (max-width: 768px) {
+  .content-div {
+    padding: 40px 20px;
+  }
+}
+
+/* For very small screens (≤ 576px) */
+@media (max-width: 576px) {
+  .content-div {
+    padding: 20px 10px;
+  }
+}
+    
+.contact-container{
+    height:85vh;
+    /* background-color: greenyellow; */
+}
+
+.bg-custom-teal {
+  background-color: #0aa8a8 !important;
+}
+
+.button-style{
+    border-radius: 20px;
+    border: white;
+    padding: 10px 20px 10px 20px;
+};
+
+
+.bg-custom-orange{
+  background-color: rgba(22, 224, 231, 0.808);
+}
+
