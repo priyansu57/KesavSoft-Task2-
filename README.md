@@ -1,50 +1,106 @@
+# KesavSoft Task 2
 
-# BigSpring(Task 2)
+A frontend web project built as part of the KesavSoft Task 2 challenge.  
+This repository showcases responsive UI, templated pages, and clean design using HTML, CSS, and JavaScript (or templating engine, if used).
 
-This project is a Multi-Page Application (MPA) scaffolded using Vite and the Handlebars templating engine for modular HTML and static asset bundling.
+---
 
-⚙️ Core Technologies
-Component	Choice	Rationale
-Templating Engine	Handlebars (via vite-plugin-handlebars)	Chosen for its simplicity, speed, and ability to create reusable HTML components (partials) and inject data before the page is served, enabling a modern, component-like workflow without a full JavaScript framework.
-Bundler / Task Runner	Vite	Selected for its fast development server based on native ES Modules, providing near-instantaneous Hot Module Replacement (HMR) and an optimized production build powered by Rollup.
+## 📂 Project Structure
 
-Export to Sheets
-🚀 Getting Started
-Follow these steps to set up the project locally.
-
-1. Installation
-Dependencies are installed using npm.
-
-Bash
-
-# Install all required Node.js packages (Vite, Handlebars, and plugins)
-npm install
-2. Project Structure
-Your project uses a modular structure for better organization, as reflected in the vite.config.js file:
-
-Path	Purpose
-*.html  =>	Main HTML page entry points (index.html, About.html, contact.html, etc.).
-partials/*.hbs =>	Reusable HTML snippets (e.g., navigation, footer, head).
-vite.config.js => 	Configures the Handlebars plugin, defines global data context, and maps all MPA entry points.
-main.js => 	The main JavaScript entry point for importing all client-side logic, including local CSS files (/public/css/).
-
-Export to Sheets
-3. Running the Project
-Use the standard Vite commands defined in package.json.
-
-Development Mode (Local Server)
-Run the project in development mode with HMR. Vite automatically detects all pages configured in vite.config.js.
-
-Bash
-
-npm run dev
-Access your pages via the browser (e.g., http://localhost:5173/index.html or directly if your root is configured).
-
-Production Build
-Run the build command to compile and optimize all HTML, CSS, and JavaScript assets into the dist/ directory.
-
-Bash
-
-npm run build
+/
+├ public/
+│ ├ css/
+│ ├ images/
+│ ├ js/
+│ └ HTML/templated pages
+├ src/ (if using a templating engine or build setup)
+└ README.md
 
 
+- **public/** — Contains static assets (CSS, images, scripts).  
+- **HTML or templated pages** — Main pages for the project (Home, About, Contact, etc.).  
+- **src/** — If you're using a templating setup or build pipeline (optional).  
+
+---
+
+## 🛠 Technologies & Tools
+
+- **HTML5 & CSS3** — semantic markup, responsive layouts  
+- **JavaScript** — for interactivity and dynamic behavior  
+- **Bootstrap / Tailwind / Custom CSS** (whichever you used) — for responsive design  
+- **Templating engine** (e.g. Nunjucks, EJS) — for modular templates (if used)  
+- **Font Awesome / Icon libraries** — for icons  
+
+---
+
+## ✨ Features & Highlights
+
+- Responsive design across desktop, tablet, and mobile  
+- Navigation bar with active link highlighting  
+- Structured pages (Home, About, Contact, etc.)  
+- Contact / Form pages (if applicable)  
+- Image assets and banners  
+- Clean, modular CSS & reusable components  
+
+---
+
+## 🔗 Live Demo
+
+Check out the live version of this project here:  
+👉 [Your Deployment URL]  
+
+*(Replace with actual GitHub Pages, Netlify, Vercel, or any hosted link)*
+
+---
+
+## ✅ How to Run Locally
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/priyansu57/KesavSoft-Task2-.git
+   cd KesavSoft-Task2-
+
+    Open the project locally
+
+        If it’s purely static, open index.html (or the main page) in your browser.
+
+        Or serve via a simple HTTP server:
+
+    npm install -g http-server
+    http-server .
+
+    Then visit http://localhost:8080 (or as given).
+
+    (Optional) If using a build/templating setup:
+
+        Install dependencies: npm install
+
+        Run dev server: npm run dev
+
+        Build for production: npm run build
+
+🔧 Possible Improvements & Next Steps
+
+    Convert static pages to templated layouts (header, footer, nav)
+
+    Add form validation and backend integration
+
+    Improve accessibility and SEO metadata
+
+    Add animations, transitions, micro-interactions
+
+    Deploy to Netlify, Vercel, or GitHub Pages and showcase live link
+
+🚀 Why This Project Matters
+
+    Demonstrates ability to structure a multi-page frontend project
+
+    Exhibits responsive design skills
+
+    Shows attention to UI clarity, consistency, and polish
+
+    Prepares you for real-world frontend tasks with templating, layouts, and deployment
+
+📸 Screenshots
+
+    You can include screenshots (e.g. home.png, contact.png) to show off the UI.
