@@ -28,7 +28,8 @@ This repository showcases responsive UI, templated pages, and clean design using
 - **HTML5 & CSS3** — semantic markup, responsive layouts  
 - **JavaScript** — for interactivity and dynamic behavior  
 - **Bootstrap / Tailwind / Custom CSS** (whichever you used) — for responsive design  
-- **Templating engine** (e.g. Nunjucks, EJS) — for modular templates (if used)  
+- **Templating engine** (e.g. handlebar) — for modular templates (if used)
+- **Boundele** - vite
 - **Font Awesome / Icon libraries** — for icons  
 
 ---
